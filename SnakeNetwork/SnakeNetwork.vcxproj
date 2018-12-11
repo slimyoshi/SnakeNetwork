@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Client.h" />
+    <ClInclude Include="networkHub.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="snake.h" />
     <ClInclude Include="stdafx.h" />
@@ -155,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp" />
+    <ClCompile Include="networkHub.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="snake.cpp" />
     <ClCompile Include="SnakeNetwork.cpp" />
