@@ -33,12 +33,15 @@
     <ClInclude Include="networkHub.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="serverGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clientGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SnakeNetwork.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="snake.cpp">
@@ -51,6 +54,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="networkHub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeNetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="serverGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clientGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

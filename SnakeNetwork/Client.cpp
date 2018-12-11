@@ -1,6 +1,7 @@
-#include "Client.h"
+
 // Networking libraries
 #include "stdafx.h"
+#include "Client.h"
 
 //constructor
 Client::Client()
@@ -19,7 +20,8 @@ Client::Client()
 	// Initialize Winsock
 	iResultC = WSAStartup(MAKEWORD(2, 2), &wsaData);
 
-	if (iResultC != 0) {
+	if (iResultC != 0) 
+	{
 		printf("WSAStartup failed with error: %d\n", iResultC);
 		exit(1);
 	}
@@ -43,13 +45,15 @@ Client::Client()
 	}
 
 	// Attempt to connect to an address until one succeeds
-	for (ptr = result; ptr != NULL; ptr = ptr->ai_next) {
+	for (ptr = result; ptr != NULL; ptr = ptr->ai_next) 
+	{
 
 		// Create a SOCKET for connecting to server
 		ConnectSocket = socket(ptr->ai_family, ptr->ai_socktype,
 			ptr->ai_protocol);
 
-		if (ConnectSocket == INVALID_SOCKET) {
+		if (ConnectSocket == INVALID_SOCKET) 
+		{
 			printf("socket failed with error: %ld\n", WSAGetLastError());
 			WSACleanup();
 			exit(1);

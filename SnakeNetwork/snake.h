@@ -6,6 +6,8 @@ public:
 	//variables
 
 	//functions
+	snake();
+	~snake();
 
 protected:
 	//variables

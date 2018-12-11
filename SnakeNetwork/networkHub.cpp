@@ -1,7 +1,8 @@
-#include "networkHub.h"
+#include "stdafx.h"
 
 #include "Client.h"
 #include "Server.h"
+#include "networkHub.h"
 
 int networkHub::sendMessage(SOCKET curSocket, char * message, int messageSize)
 {

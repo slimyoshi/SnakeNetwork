@@ -19,12 +19,14 @@ class Client
 {
 public:
 	//variables
-	SOCKET ConnectSocket;
 	int iResultC;
+
+	SOCKET ConnectSocket;
 
 	//functions
 	Client();
 	~Client();
+
 protected:
 	//variables
 
